@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp" />
     <ClCompile Include="나누어 떨어지는 숫자 배열.cpp" />
     <ClCompile Include="나머지가 1이 되는 수 찾기.cpp" />
     <ClCompile Include="두 정수 사이의 합.cpp" />
     <ClCompile Include="문자열 내 p와 y의 개수.cpp" />
     <ClCompile Include="문자열을 정수로 바꾸기.cpp" />
+    <ClCompile Include="서울에서 김서방 찾기.cpp" />
     <ClCompile Include="약수의 합.cpp" />
     <ClCompile Include="없는 숫자 더하기.cpp" />
     <ClCompile Include="음양 더하기.cpp" />
@@ -156,6 +158,7 @@
     <ClCompile Include="짝수와 홀수.cpp" />
     <ClCompile Include="콜라츠 추측.cpp" />
     <ClCompile Include="평균 구하기.cpp" />
+    <ClCompile Include="폰켓몬.cpp" />
     <ClCompile Include="하샤드 수.cpp" />
     <ClCompile Include="핸드폰 번호 가리기.cpp" />
   </ItemGroup>
