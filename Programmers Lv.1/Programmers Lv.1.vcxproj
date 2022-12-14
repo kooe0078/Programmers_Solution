@@ -148,9 +148,12 @@
     <ClCompile Include="두 정수 사이의 합.cpp" />
     <ClCompile Include="문자열 내 p와 y의 개수.cpp" />
     <ClCompile Include="문자열 내림차순으로 배치하기.cpp" />
+    <ClCompile Include="문자열 다루기 기본.cpp" />
     <ClCompile Include="문자열을 정수로 바꾸기.cpp" />
+    <ClCompile Include="부족한 금액 계산하기.cpp" />
     <ClCompile Include="서울에서 김서방 찾기.cpp" />
     <ClCompile Include="수박수박수박수박수박수.cpp" />
+    <ClCompile Include="약수의 개수와 덧셈.cpp" />
     <ClCompile Include="약수의 합.cpp" />
     <ClCompile Include="없는 숫자 더하기.cpp" />
     <ClCompile Include="음양 더하기.cpp" />
@@ -165,6 +168,7 @@
     <ClCompile Include="폰켓몬.cpp" />
     <ClCompile Include="하샤드 수.cpp" />
     <ClCompile Include="핸드폰 번호 가리기.cpp" />
+    <ClCompile Include="행렬의 덧셈.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
