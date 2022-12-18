@@ -168,6 +168,7 @@
     <ClCompile Include="직사각형 별찍기.cpp" />
     <ClCompile Include="짝수와 홀수.cpp" />
     <ClCompile Include="최대공약수와 최소공배수.cpp" />
+    <ClCompile Include="최소직사각형.cpp" />
     <ClCompile Include="콜라츠 추측.cpp" />
     <ClCompile Include="평균 구하기.cpp" />
     <ClCompile Include="폰켓몬.cpp" />
