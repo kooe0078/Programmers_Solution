@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3진법 뒤집기.cpp" />
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp" />
     <ClCompile Include="가운데 글자 가져오기.cpp" />
