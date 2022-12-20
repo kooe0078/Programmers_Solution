@@ -142,6 +142,7 @@
     <ClCompile Include="3진법 뒤집기.cpp" />
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp" />
+    <ClCompile Include="[1차] 비밀지도.cpp" />
     <ClCompile Include="가운데 글자 가져오기.cpp" />
     <ClCompile Include="같은 숫자는 싫어.cpp" />
     <ClCompile Include="나누어 떨어지는 숫자 배열.cpp" />
