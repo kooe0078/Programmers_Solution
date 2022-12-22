@@ -20,26 +20,27 @@ string Tobinary(int num) // 이진수 변환
 vector<int> solution(string s) {
     vector<int> answer;
     string str = "";
-    int cycle = 0;
-    int num = 0;
+    int repeatNum = 0;
+    int deleteNum = 0;
 
     while (s != "1")
     {
-        cycle++;
+        str = "";
+        repeatNum++;
 
         for (auto i : s)
         {
             if (i == '1')
                 str += i;
             else
-                num++;
+                deleteNum++;
         }
 
         s = Tobinary(str.length());
     }
 
-    answer.push_back(cycle);
-    answer.push_back(num);
+    answer.push_back(repeatNum);
+    answer.push_back(deleteNum);
 
     return answer;
 }
