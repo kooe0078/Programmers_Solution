@@ -9,8 +9,6 @@ int solution(vector<int> people, int limit) {
     int answer = 1;
     stack<int> sum;
 
-    sort(people.begin(), people.end());
-
     for (int i : people)
     {
         if (!sum.empty())
