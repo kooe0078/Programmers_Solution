@@ -1,33 +1,25 @@
 #include <string>
 #include <vector>
-#include <stack>
 #include <algorithm>
 
 using namespace std;
 
 int solution(vector<int> people, int limit) {
-    int answer = 1;
-    stack<int> sum;
+    int answer = 0;
+    int num = 0;
 
-    for (int i : people)
-    {
-        if (!sum.empty())
-        {
-            if (sum.top() + i >= limit)
-            {
-                sum.pop();
-                answer++;
-            }
-            else
-            {
-                sum.push(i);
-            }
+    sort(people.begin(), people.end());
+
+    while (people.size() > num) {
+        int back = people.back();
+        people.pop_back();
+
+        if (people[num] + back <= limit) {
+            answer++;
+            num++;
         }
         else
-        {
-            sum.push(i);
-        }
-
+            answer++;
     }
 
     return answer;
