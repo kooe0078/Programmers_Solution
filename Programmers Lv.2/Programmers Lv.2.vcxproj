@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JadenCase 문자열 만들기.cpp" />
+    <ClCompile Include="N개의 최소공배수.cpp" />
     <ClCompile Include="구명보트.cpp" />
     <ClCompile Include="다음 큰 숫자.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
