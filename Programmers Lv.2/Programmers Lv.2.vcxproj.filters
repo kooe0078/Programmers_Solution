@@ -48,5 +48,8 @@
     <ClCompile Include="N개의 최소공배수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="예상 대진표.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
